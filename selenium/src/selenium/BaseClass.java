@@ -23,6 +23,9 @@ public class BaseClass
 		
 		Select day= new Select (driver.findElement(By.xpath("html/body/div[5]/div[3]/div/div/form/div/div[2]/div[1]/div[2]/div[4]/select[1]")));
 		day.selectByValue("7");		
+		
+		
+		
 	}
 
 }
